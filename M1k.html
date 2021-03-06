@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <link rel="stylesheet" type="text/css" href="./css/mondai.css">
+    <title>4shu!</title>
+    <script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.pjax.js"></script>
+    <script src="./js/home.js">
+    </script>
+        <script type="text/javascript">
+            $.pjax({
+              area : '#replace',
+              link : 'a.pjax'
+            });
+          </script>
+</head>
+
+<body>
+    <section class="home" id="replace">
+        <input type="button" value="範囲選択" onclick="JM1kL();" class="sett3 on" id="M1kL">
+        <br>
+        <div id="M1ksentakushi" class="off center">選択肢
+            <br>
+        <input type="button" value="選択する" onclick="JM1kLK();" class="sett3 on" id="">
+        <br>
+        <select name="area" id="bangou" size="1">
+            <option value="image1">指数法則①</option>
+            <option value="image2">乗法公式</option>
+            </select>
+        </div>
+        <div id="IDM1k" class="on center kesu">
+            <div id="sisuuhousoku1" class="off kesu white">\(a^m*a^n=a^(m+n)\)<br>\((a^m)^n=a^mn\)<br>\((av)^n=a^n*b^n\)</div>
+            <div id="jouhoukoushiki1" class="off kesu white">\(1:(x+a)(x+b)=x²+(a+b)x+ab\)<br>
+                \(2:(a+b)(a−b)=a²−b²\)<br>
+                \(3:(a+b)²=a²+2ab+b²\)<br>
+                \(4:(a−b)²=a²−2ab+b²\)<br>
+                \(5:(ax+b)(cx+d)=acx²+(ad+bc)x+bd\)<br>
+                \(6:(a+b)³=a³+3a²b+3ab²+b³\)<br>
+                \(7:(a−b)³=a³−3a²b+3ab²−b³\)<br>
+                \(8:(a+b)(a²−ab+b²)=a³+b³\)<br>
+                \(9:(a−b)(a²+ab+b²)=a³−b³\)<br>
+                \(10:(a+b+c)²=a²+b²+c²+2ab+2bc+2ca\)<br>
+                \(11:(a+b)⁴=a⁴+4a³b+6a²b²+4ab³+b⁴\)<br>
+                \(12:(a−b)⁴=a⁴−4a³b+6a²b²−4ab³+b⁴\)<br></div>
+        </div>
+    </section>
+</body>
