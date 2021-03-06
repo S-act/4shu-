@@ -34,6 +34,15 @@ body{
     text-align: center;
     margin-right: auto;
 }
+.white2{
+    background-color: white;
+    width: 100%;
+    position:absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 3vw;
+}
 .sett3 {
     color: rgb(0, 255, 85);
     background-color: black;
