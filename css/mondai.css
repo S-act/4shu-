@@ -16,7 +16,7 @@ body{
     margin-top: 1vh;
     color: aqua;
     background-color: black;
-    width: 40%;
+
     height: 15vh;
     font-size: 3vw;
     text-align: center;
@@ -28,11 +28,19 @@ body{
     margin-bottom: 1vh; 
     color: yellow;
     background-color: black;
-    width: 40%;
+
     height: 15vh;
     font-size: 3vw;
     text-align: center;
     margin-right: auto;
+}
+.width40{
+    width: 40%;
+    font-size: 3vw;
+}
+.width70{
+    width: 70%;
+    font-size: 5vw;
 }
 .white2{
     background-color: white;
