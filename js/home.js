@@ -7,6 +7,9 @@ function J4Tt() {
 function JKanyou() {
     location.href = 'kanyou.html'; 
 }
+function JTK1() {
+    location.href = 'TANGO.html'; 
+}
 
 function JM1kL() {
     var list = document.getElementsByClassName("kesu");
