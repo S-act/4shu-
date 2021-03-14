@@ -48,3 +48,19 @@ function bangouhantei(){
 
     return n;
 }
+function allchange() {
+    var far = fir.value
+    var sek = secon.value
+
+    var list = document.getElementsByClassName("kenti");
+    for (var i = 0; i < list.length; i++) {
+        var element = list[i];
+        element.classList.remove('on');
+        element.classList.add('off');
+      }
+    for (var far = far*2 - 2 ; -1 <= sek*2 - far -2 ; far++) {
+        var element = list[far];
+        element.classList.remove('off');
+        element.classList.add('on');
+    }
+}
