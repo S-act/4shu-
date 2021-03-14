@@ -48,6 +48,7 @@ function bangouhantei(){
 
     return n;
 }
+
 function allchange() {
     var far = fir.value
     var sek = secon.value
