@@ -1,6 +1,24 @@
 body{
-    background-color: rgb(177, 255, 104);
+    background-color: rgb(0, 255, 213);
     width: 100%;
+}
+.bg1{
+    background-color:rgba(209, 180, 255, 0.85);
+}
+.bg2{
+    background-color:rgba(180, 255, 220, 0.85);
+}
+.karada{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    padding: 10px;
+    margin-bottom: 10vh;
+}
+.shu{
+    font-size: 5vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .center{
     text-align: center;
@@ -22,11 +40,11 @@ body{
     font-size: 3vw;
     text-align: center;
     margin-left: auto;
+    border-radius: 5%;
 }
 
 .sett2 {
     margin-top: 1vh;
-    margin-bottom: 1vh; 
     color: yellow;
     background-color: black;
 
@@ -34,6 +52,7 @@ body{
     font-size: 3vw;
     text-align: center;
     margin-right: auto;
+    border-radius: 5%;
 }
 .width40{
     width: 40%;
@@ -51,6 +70,7 @@ body{
     font-size: 2vw;
     text-align: center;
     margin-right: auto;
+    border-radius: 5%;
 }
 .mondaibun{
     color: rgb(0, 0, 54);
@@ -98,4 +118,9 @@ body{
 }
 .red{
     color: rgb(255, 100, 131);
+}
+.input{
+    font-size: 16px ;
+    height: 6vh;
+    width: 13vw;
 }
