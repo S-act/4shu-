@@ -120,6 +120,6 @@ body{
     color: rgb(255, 100, 131);
 }
 .input{
-    font-size: 16px ;
-
+    font-size: 30px ;
+    width: 60vw;
 }
