@@ -113,7 +113,7 @@ body{
     position:relative;
 }
 .t50{
-    height: 50vh;
+    height: 30vh;
     width: 100vw;
 }
 .red{
@@ -121,6 +121,5 @@ body{
 }
 .input{
     font-size: 16px ;
-    height: 6vh;
-    width: 13vw;
+
 }
