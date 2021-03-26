@@ -53,6 +53,29 @@ function allchange() {
     var far = fir.value
     var sek = secon.value
 
+    if(hanten.checked){
+        var list2 = document.getElementsByClassName("en");
+        var list3 = document.getElementsByClassName("jp");
+        for(var loop=0; loop < list3.length; loop++){
+        var element2 = list2[loop];
+        var element3 = list3[loop];
+        element2.classList.remove('red');
+        element3.classList.add('red');
+        console.log("ろぐ");
+        }
+        console.log("ろぐ");
+    }else{
+        var list2 = document.getElementsByClassName("jp");
+        var list3 = document.getElementsByClassName("en");
+        for(var loop=0; loop < list3.length; loop++){
+        var element2 = list2[loop];
+        var element3 = list3[loop];
+        element2.classList.remove('red');
+        element3.classList.add('red');
+        console.log("ろぐ");
+        }
+        console.log("ろぐ２");
+    }
     var list = document.getElementsByClassName("kenti");
     for (var i = 0; i < list.length; i++) {
         var element = list[i];
