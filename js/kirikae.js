@@ -9,6 +9,7 @@ function tst1(){
     sen4= "青";
     seikai= 1;
     gaiyou= "四高の校カラーは緑です！";
+    gaiyouf="四高の校カラーは緑です！";
     }
     if (h===2) {   
         mondai="1+1は？"
@@ -18,6 +19,7 @@ function tst1(){
         sen4= "22.4";
         seikai= 3;
         gaiyou= "②はアボガドロ定数、④は1molでの気体の体積です";
+        gaiyouf="②はアボガドロ定数、④は1molでの気体の体積です";
     }
     sentakushi1.value ="①."+ sen1;
     sentakushi2.value ="②."+ sen2;
@@ -29,14 +31,14 @@ function seigo() {
     if (seikai===1) {
         kaisetsu.innerHTML= "正解！" +gaiyou;
     } else {
-        kaisetsu.innerHTML= "不正解！" +"答えは"+seikai+"で　"+gaiyou;
+        kaisetsu.innerHTML= "不正解！" +"答えは"+seikai+"　"+gaiyouf;
     }
 }
 function seigo2() {
     if (seikai===2) {
         kaisetsu.innerHTML= "正解！" +gaiyou;
     } else {
-        kaisetsu.innerHTML= "不正解！" +"答えは"+seikai+"で　"+gaiyou;
+        kaisetsu.innerHTML= "不正解！" +"答えは"+seikai+"　"+gaiyouf;
     }
 }
 
@@ -44,14 +46,14 @@ function seigo3() {
     if (seikai===3) {
         kaisetsu.innerHTML= "正解！" +gaiyou;
     } else {
-        kaisetsu.innerHTML= "不正解！" +"答えは"+seikai+"で　"+gaiyou;
+        kaisetsu.innerHTML= "不正解！" +"答えは"+seikai+"　"+gaiyouf;
     }
 }
 function seigo4() {
     if (seikai===4) {
         kaisetsu.innerHTML= "正解！" +gaiyou;
     } else {
-        kaisetsu.innerHTML= "不正解！" +"答えは"+seikai+"で　"+gaiyou;
+        kaisetsu.innerHTML= "不正解！" +"答えは"+seikai+"　"+gaiyouf;
     }
 }
 function bangouhantei(){
